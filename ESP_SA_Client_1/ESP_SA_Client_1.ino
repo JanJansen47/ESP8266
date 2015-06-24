@@ -14,8 +14,8 @@
 
 #include <ESP8266WiFi.h>
 
-const char* ssid     = "JOKER";
-const char* password = "ABCDABCDABCDABCDABCDABCDAB";
+const char* ssid     = "PUBLIC";
+const char* password = "ABCDABCDABCDABCDABCDAB";
 const char* host = "192.168.0.110";
 char cmdbuf [150];  //buffer used to paste the http string
 // Use WiFiClient class to create TCP connections
